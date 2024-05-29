@@ -1,8 +1,8 @@
 long duration;
 int distance;
 
-const int trig = 9;
-const int echo = 10;
+const int trig = 9; //sets trige in pin 9
+const int echo = 10; //sets echo in pin 10
 
 void setup() {
   pinMode(trig, OUTPUT); // Sets the trigPin as an Output
